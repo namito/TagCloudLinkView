@@ -6,6 +6,16 @@ A Simple Layout with Tag View.
 It provide a adding and removing Tag View.
 It callback a tag text selected and deletable text('×') selected.
 
+Installing
+----
+
+###Gradle
+```java
+dependencies {
+    compile 'com.ns-developer:tagcloudview:0.1.0'
+}
+```
+
 Usage
 -----
 Inflate TagCloudLinkView and Tag add.
