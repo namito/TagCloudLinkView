@@ -20,9 +20,27 @@ dependencies {
 
 Usage
 -----
-# layout in xml
+1.layout in xml
 
-# add tag object
+TagCloudLinkView provides a change deletable/undeletable tag or change character size, color.
+
+```xml
+    <com.ns.developer.tagview.widget.TagCloudLinkView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/test"
+        android:layout_width="500px"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:background="#ffffff"
+        app:isDeletable="false"
+        app:tagLayoutColor="#ffff0000"
+        app:tagTextSize="8sp"
+        app:tagTextColor="#ff9acd32"
+        app:deletableTextSize="8sp"
+        app:deletableTextColor="#ff9acd32"/>
+```
+
+2.add tag object
 
 at Activity.
 ```java
