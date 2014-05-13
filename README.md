@@ -22,7 +22,7 @@ Usage
 -----
 1.layout in xml
 
-TagCloudLinkView provides a change deletable/undeletable tag or change character size, color.
+TagCloudLinkView provides a change deletable / undeletable tag or change layout color, text size, text color.
 
 ```xml
     <com.ns.developer.tagview.widget.TagCloudLinkView
@@ -42,7 +42,7 @@ TagCloudLinkView provides a change deletable/undeletable tag or change character
 
 2.add tag object
 
-at Activity.
+Example at Activity code.
 ```java
 TagCloudLinkView view = (TagCloudLinkView) findViewById(R.id.xxx);
 view.add(new Tag(1,"TAG TEXT 1"));
