@@ -3,8 +3,10 @@ TagCloudLinkView
 
 A Simple Layout with Tag View.
 
-It provide a adding and removing Tag View.
-It callback a tag text selected and deletable text('×') selected.
+It provides add and remove Tag view.
+(Tag object is packaged. 'com.ns.developer.tagview.entity.Tag')
+
+It also can callback a selected tag text and deletable tag text ('×') .
 
 Installing
 ----
@@ -18,7 +20,9 @@ dependencies {
 
 Usage
 -----
-Inflate TagCloudLinkView and Tag add.
+# layout in xml
+
+# add tag object
 
 at Activity.
 ```java
