@@ -10,7 +10,9 @@ It also can callback a selected tag text and deletable tag text ('×') .
 
  <img style="max-width:30%;" alt="isDeletable=false"
         src="sample_image_001.png">
-   
+  
+  <img style="max-width:30%;" alt="isDeletable=false"
+        src="sample_image_002.png"> 
 
 Installing
 ----
