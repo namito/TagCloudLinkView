@@ -51,6 +51,30 @@ view.add(new Tag(1,"TAG TEXT 3"));
 view.drawTags();
 ```
 
+ex1. set text select listener
+
+Example at Activity code.
+```java
+view.setOnTagSelectListener(new TagCloudLinkView.OnTagSelectListener(){
+    @Override
+    public void onTagSelected(Tag tag, int i) {
+        // write something
+    }
+});
+```
+
+ex2. set delete event listener
+
+Example at Activity code.
+```java
+view.setOnTagDeleteListener(new TagCloudLinkView.OnTagDeleteListener() {
+    @Override
+    public void onTagDeleted(Tag tag, int i) {
+        // write something
+    }
+});
+```
+
 License
 =======
 
