@@ -48,6 +48,7 @@ public class TagCloudLinkView extends RelativeLayout {
     private static final int TAG_LAYOUT_TOP_MERGIN = 10;
     private static final int TAG_LAYOUT_LEFT_MERGIN = 10;
     private static final int INNER_VIEW_PADDING = 10;
+    private static final int LAYOUT_WIDTH_OFFSET = 5;
     private static final int DEFAULT_TEXT_SIZE = 14;
     private static final int DEFAULT_TAG_LAYOUT_COLOR = Color.parseColor("#aa66cc");
     private static final int DEFAULT_TAG_TEXT_COLOR = Color.parseColor("#1a1a1a");
@@ -259,7 +260,7 @@ public class TagCloudLinkView extends RelativeLayout {
             LayoutParams tagParams = new LayoutParams(HEIGHT_WC, HEIGHT_WC);
             tagParams.setMargins(0, 0, 0, 0);
 
-            if (mWidth <= total + tagWidth) {
+            if (mWidth <= total + tagWidth + LAYOUT_WIDTH_OFFSET) {
                 tagParams.addRule(RelativeLayout.BELOW, pindex);
                 tagParams.topMargin = TAG_LAYOUT_TOP_MERGIN;
                 // initialize total param (layout padding left & layout padding right)

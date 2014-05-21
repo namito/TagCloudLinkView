@@ -29,7 +29,7 @@ local.properties
 
 # Android Studio files
 */build/
-gradle.properties
+#gradle.properties
 
 # gradle cache
 .gradle/
